@@ -47,6 +47,6 @@ public class Date {
 	}
 	
 	public String toString() {
-		return String.format("Account[Date = %d/%d/%d]", this.day, this.month, this.year);
+		return String.format("Date[Date = %d/%d/%d]", this.day, this.month, this.year);
 	}
 }
